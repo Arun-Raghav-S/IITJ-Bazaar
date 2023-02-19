@@ -1,0 +1,91 @@
+/*  --------------------------------------------- TAG SELECTORS --------------------------------------------- */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/*  --------------------------------------------- CLASS SELECTORS --------------------------------------------- */
+
+.bg{
+    width: 98.93vw; 
+    height: 140vh;
+    text-align: center;
+    background: url(../images/room.jpeg);
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    padding: 0 1rem 0.5rem 1rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/*  --------------------------------------------- CLASS TAG SELECTORS --------------------------------------------- */
+
+button.download{
+    margin: 5% 3% 5% 0;
+}
+
+h1.heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+i.footer{
+    padding: 1%;
+}
+
+p.footer{
+    color: gray;
+    padding-top: 1%;
+}
+
+/*  --------------------------------------------- ID SELECTORS --------------------------------------------- */
+
+#footer{
+    margin: 5%;
+    text-align: center;
+}
+
+#title{
+    background-color: white;
+}
+
+.btn{
+    background-color: white;
+    border: 2px solid black;
+    color: green;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 10px 30px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 6%;
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    color: black;
+}
